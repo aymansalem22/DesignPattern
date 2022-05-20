@@ -8,7 +8,7 @@ package singletonpattern;
 
 public class SingletonPattern {
 
-  //usage:  when need to create only one object per class.
+  //usage:   when need to create only one object per class.
 	
     public static void main(String[] args) {
       Satellite s1=Satellite.getSatellite();
