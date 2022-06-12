@@ -7,7 +7,7 @@ public class Acer implements Laptop {
 	private double sizeScreen;
 	private boolean hasBluetooth;
 	
-	private Acer(String CPU,int ramSize,int hardDiskSize,double sizeScreen,boolean isBlutooth) {
+	public Acer(String CPU,int ramSize,int hardDiskSize,double sizeScreen,boolean isBlutooth) {
 		this.CPU=CPU;
 		this.ramSize=ramSize;
 		this.hardDiskSize=hardDiskSize;

@@ -8,7 +8,7 @@ public class Asus implements Laptop {
 	private boolean hasTouchScreen;
 	private boolean hasBluetooth;
 	
-	private Asus(String CPU,int ramSize,int hardDiskSize,boolean hasTouchScreen,boolean isBlutooth) {
+	public Asus(String CPU,int ramSize,int hardDiskSize,boolean hasTouchScreen,boolean isBlutooth) {
 		this.CPU=CPU;
 		this.ramSize=ramSize;
 		this.hardDiskSize=hardDiskSize;

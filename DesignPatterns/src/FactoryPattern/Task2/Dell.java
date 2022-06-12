@@ -8,7 +8,7 @@ public class Dell implements Laptop {
 	private DiskType typeHardDisk;
 	private boolean hasOperationSystem;
 	
-	private Dell(String CPU,int ramSize,int hardDiskSize,DiskType typeHardDisk,boolean isBlutooth) {
+	public Dell(String CPU,int ramSize,int hardDiskSize,DiskType typeHardDisk,boolean isBlutooth) {
 		this.CPU=CPU;
 		this.ramSize=ramSize;
 		this.hardDiskSize=hardDiskSize;
