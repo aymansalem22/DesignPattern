@@ -1,7 +1,7 @@
 package FactoryPattern.Task1;
 
 public class FactoryMain {
-
+//test
 	public static void main(String[] args) {
 		Mobile mobile1 = MobileFactory.createMobile(Mobile.IPHONE11);
 		Mobile mobile2 = MobileFactory.createMobile(Mobile.IPHONE12);
