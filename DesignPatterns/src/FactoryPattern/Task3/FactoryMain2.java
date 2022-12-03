@@ -23,13 +23,11 @@ public class FactoryMain2 {
 				laptops[i] = LaptopFactory.createLaptop(Laptop.DELL);
 			}
 		}
-		
+
 		for (Laptop laptop : laptops) {
 			laptop.showspeces();
 			System.out.println("------------------");
 		}
-
-		
 
 	}
 
