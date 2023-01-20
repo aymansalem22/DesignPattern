@@ -47,8 +47,8 @@ public class Cockpit implements CommandController {
 
 	@Override
 	public boolean canHandle(String command) {
-		// TODO Auto-generated method stub
-		return false;
+		return command.equals(TAKE_OFF) || command.equals(LAND) || command.equals(REACH_ALTITUDE)
+				|| command.equals(EXIT);
 	}
 
 	private void takeOff() {
